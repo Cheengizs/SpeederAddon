@@ -1,0 +1,52 @@
+body {
+  width: 220px;
+  padding: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #1e1e2e;
+  color: #cdd6f4;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+h3 {
+  margin: 0;
+  text-align: center;
+  color: #89b4fa;
+}
+
+/* Стилизация ползунка */
+input[type="range"] {
+  cursor: pointer;
+  accent-color: #89b4fa;
+}
+.value-display {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #a6e3a1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+button {
+  background: #313244;
+  border: 1px solid #45475a;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  background: #45475a;
+  border-color: #89b4fa;
+}
+button:active {
+  transform: scale(0.95);
+}

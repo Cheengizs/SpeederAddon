@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "SpeederAddon",
+  "version": "1.0",
+
+  "description": "You can set playback rate for \"video\" element on page",
+
+  "icons": {
+    "48": "icons/speed.png"
+  },
+
+  "permissions": ["activeTab", "scripting", "storage"],
+
+  "browser_action": {
+    "default_icon": "./icons/speed.png",
+    "default_title": "CheezSpeed",
+    "default_popup": "popup/speeds.html"
+  }
+}
