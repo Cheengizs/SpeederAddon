@@ -9,7 +9,15 @@
     "48": "icons/speed.png"
   },
 
-  "permissions": ["activeTab", "scripting", "storage"],
+  "permissions": ["<all_urls>", "activeTab", "scripting", "storage"],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
 
   "browser_action": {
     "default_icon": "./icons/speed.png",
